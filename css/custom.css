@@ -630,13 +630,13 @@ header.main-header .header-sticky.active{
 	padding-left: 0;
 }
 
-/* .main-menu ul li.submenu > a:after{
+.main-menu ul li.submenu > a:after{
 	content: '\f107';
 	font-family: 'FontAwesome';
 	font-weight: 900;
 	font-size: 14px;
 	margin-left: 8px;
-} */
+}
 
 .main-menu ul li .nav-link:hover,
 .main-menu ul li .nav-link:focus{
@@ -3117,7 +3117,7 @@ scale: 0;
 	content: '';
 	position: absolute;
 	top: 50%;
-	right: 0;
+	right: 0%;
 	background: url(../images/arrow-dark.svg) no-repeat;
 	background-size: cover;
 	width: 24px;
@@ -3298,7 +3298,7 @@ scale: 0;
 
 .service-entry ul li{
 	position: relative;
-	width: calc(33.33% - 20px);
+	/* width: calc(33.33% - 20px); */
     color: var(--primary-color);
     text-transform: capitalize;
 	padding-left: 40px;
