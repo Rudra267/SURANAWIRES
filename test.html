@@ -1,200 +1,88 @@
-<div class="timeline">
-    <div class="entry">
-      <div class="title">
-        <h3>1. Warehousing Solutions</h3>
-        <!-- <p>Title, Company</p> -->
-      </div>
-      <div class="body">
-        <p>We provide custom-designed storage systems to improve inventory management and optimize
-            space utilization, enhancing overall operational efficiency. Our solutions help streamline
-            warehousing operations, ensuring a more organized and cost-effective storage process.</p>
-        <ul>
-          <li>Custom-designed storage systems</li>
-          <li>Improved space utilization</li>
-          <li>Enhanced inventory management</li>
-          <li>Increased operational efficiency</li>
-        </ul>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">
-        <h3>2. Fencing Solutions</h3>
-        <!-- <p>Title, Company</p> -->
-      </div>
-      <div class="body">
-        <p>Our fencing solutions combine security and aesthetic appeal, offering durable options for
-            residential, commercial, and industrial spaces. We provide high-quality PVC-coated and
-            galvanized wire fencing that stands up to harsh conditions while enhancing the overall look of
-            any property.</p>
-        <ul>
-          <li>PVC-coated and galvanized wire options</li>
-          <li>Maximum durability for security</li>
-          <li>Aesthetic appeal for residential, commercial, and industrial spaces</li>
-          <li>Long-lasting and weather-resistant</li>
-        </ul>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">
-        <h3>3. GeoTech Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>We offer specialized wire mesh and reinforcement solutions to improve soil stability and prevent
-            erosion, ensuring long-term durability for infrastructure projects. Our solutions are designed to
-            meet the demands of construction sites, providing the strength necessary to support large-scale
-            developments.</p>
-        <ul>
-          <li>Specialized wire mesh for soil stabilization</li>
-          <li>Erosion control solutions for long-term durability</li>
-          <li>Reinforcement for infrastructure projects</li>
-          <li>Enhancing strength and stability of construction sites</li>
-        </ul>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">
-        <h3>4. Cable Management Solutions</h3>
-        <!-- <p>Title, Company</p> -->
-      </div>
-      <div class="body">
-        <p>Our cable management solutions prevent damage and ensure the safe and efficient routing of
-            cables in industrial settings. With our durable trays and armor, we improve safety, enhance
-            cable lifespan, and minimize the risk of electrical hazards.</p>
-        <ul>
-          <li>Cable trays and armor solutions for industrial settings.</li>
-          <li>Protection against damage and wear.</li>
-          <li>Improved safety in electrical systems.</li>
-          <li>Enhanced cable lifespan and performance.</li>
-        </ul>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Variants with Arrows</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
 
-    <div class="entry">
-      <div class="title">
-        <h3>5. Powder Coating Services</h3>
-        
-      </div>
-      <div class="body">
-        <p>We provide eco-friendly, high-performance powder coating services that protect products from
-          corrosion and environmental damage while offering a smooth, attractive finish. Our powder
-          coating extends the lifespan of products and improves their overall appearance.</p>
-        <ul>
-          <li>Eco-friendly powder coating options</li>
-          <li>Durable finishes for corrosion resistance</li>
-          <li>Protection against wear and environmental damage</li>
-          <li>Enhanced visual appeal for various products</li>
-        </ul>
-      </div>
+    .container-variant {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .box {
+      padding: 20px;
+      background-color: #fff;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+      text-align: center;
+      width: 150px;
+    }
+
+    .arrow-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 200px;
+    }
+
+    .arrow {
+      font-size: 24px;
+      color: #888;
+    }
+
+    .branches {
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+    }
+
+    .variant {
+        padding: 20px;
+      /* height: 100px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .variant.a {
+      background-color: #e74c3c; /* Red */
+    }
+
+    .variant.b {
+      background-color: #3498db; /* Blue */
+    }
+  </style>
+</head>
+<body>
+  <div class="container-variant">
+    <div class="box">Main Box</div>
+    <div class="arrow-container">
+      <span class="arrow">↙</span>
+      <span class="arrow">↘</span>
     </div>
-
-    <div class="entry">
-      <div class="title">
-        <h3>6. Reinforcement Mesh Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>Our high-quality welded and deformed mesh products are essential for reinforcing concrete
-          structures, ensuring strength and durability in construction. These mesh products are reliable for
-          both residential and large-scale infrastructure projects.</p>
-        <ul>
-          <li>Welded and deformed mesh for concrete reinforcement</li>
-          <li>Ensures durability in construction projects</li>
-          <li>Improves structural integrity and strength</li>
-          <li>Reliable for infrastructure development</li>
-        </ul>
-      </div>
-    </div>
-
-
-    <div class="entry">
-      <div class="title">
-        <h3>7. Barbed Wire Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>We provide heavy-duty, corrosion-resistant barbed wire to enhance security and prevent
-          unauthorized access to industrial, residential, and commercial properties. Our barbed wire
-          solutions are designed to withstand harsh environments and ensure long-lasting protection.</p>
-        <ul>
-          <li>Heavy-duty, corrosion-resistant barbed wire</li>
-          <li>Superior perimeter protection for harsh environments</li>
-          <li>Prevents unauthorized access</li>
-          <li>Robust security solution for industrial and residential use</li>
-        </ul>
-      </div>
-    </div>
-
-
-    <div class="entry">
-      <div class="title">
-        <h3>8. Custom Wire Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>We offer tailored wire products designed to meet specific industrial requirements, ensuring
-          efficient performance in diverse applications. Our custom solutions are precisely engineered to
-          address unique challenges across various sectors.</p>
-        <ul>
-          <li>Custom wire products for diverse industrial applications</li>
-          <li>Precision-designed to meet exact requirements</li>
-          <li>Enhanced efficiency and reliability</li>
-          <li>Solutions for specialized industries and projects</li>
-        </ul>
-      </div>
-    </div>
-  
-    <div class="entry">
-      <div class="title">
-        <h3>9. Agricultural Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>Our durable, eco-friendly wire mesh solutions are perfect for crop protection and livestock
-          enclosures, supporting sustainable farming practices. These solutions are designed to
-          safeguard both agricultural assets and the environment.</p>
-        <ul>
-          <li>Eco-friendly wire mesh for crop protection</li>
-          <li>Durable solutions for livestock enclosures</li>
-          <li>Promotes sustainability in agricultural operations</li>
-          <li>Enhances productivity and security in farming</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="entry">
-      <div class="title">
-        <h3>10. Industrial & Manufacturing Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>We supply heavy-duty wire mesh and grating systems designed for industrial and manufacturing
-          environments, ensuring efficiency and safety. Our solutions help optimize production processes
-          and improve operational performance in demanding environments.</p>
-        <ul>
-          <li>Heavy-duty wire mesh and grating systems</li>
-          <li>Designed for industrial and manufacturing environments</li>
-          <li>Ensures safety and operational efficiency</li>
-          <li>Long-lasting and high-performance solutions</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="entry">
-      <div class="title">
-        <h3>11. Infrastructure Solutions</h3>
-        
-      </div>
-      <div class="body">
-        <p>We provide reinforced concrete mesh and other solutions to support large-scale infrastructure
-          projects, ensuring long-term strength and stability. These products are critical in maintaining
-          structural integrity in roads, bridges, and other vital infrastructure.</p>
-        <ul>
-          <li>Reinforced concrete mesh for infrastructure projects</li>
-          <li>Ensures structural integrity and stability</li>
-          <li>Reliable solutions for roads, bridges, and large-scale developments</li>
-          <li>Built for long-term strength and durability</li>
-        </ul>
-      </div>
+    <div class="branches">
+      <div class="variant a">Ribbed Welded Mesh</div>
+      <div class="variant b">Deformed Welded Mesh</div>
     </div>
   </div>
+</body>
+</html>
