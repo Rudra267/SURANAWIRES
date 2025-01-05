@@ -2518,10 +2518,16 @@ scale: 0;
 	margin: 0;
 }
 
+
 .mission-vision-content-list ul{
 	margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.mission-vision-content-header ul li span{
+	color: #000;
+	font-weight: 700;
 }
 
 .mission-vision-content-list ul li{
@@ -2530,6 +2536,11 @@ scale: 0;
 	text-transform: capitalize;
     padding-left: 40px;
 	margin-bottom: 20px;
+}
+
+.mission-vision-content-list ul li span{
+	color: #000;
+	font-weight: 700;
 }
 
 .mission-vision-content-list ul li:last-child{
@@ -2747,8 +2758,14 @@ scale: 0;
 	transition: all 0.3s ease-in-out;
 }
 
+.features-item-content p span{
+	color: #000;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
 .our-features-item:hover .features-item-content p,
-.our-features-item:hover .features-item-content h3{
+.our-features-item:hover .features-item-content h3,.our-features-item:hover .features-item-content p span {
 	color: var(--white-color);
 }
 
